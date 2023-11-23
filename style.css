@@ -6,7 +6,7 @@ body {
    font-family: Arial;
    font-weight: bold;
    font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Mono', monospace;
+   font-family: 'Roboto Mono', monospace;
 }
 h1,
 h2 {
@@ -26,8 +26,7 @@ textarea {
    height: 200px;
    border-radius: 10px;
    border-color: #555;
-   font-family: "Source Code Pro", monospace;
-   font-size: 1em;
+   font-size: 1.25em;
    resize: none;
    
 }
@@ -77,5 +76,5 @@ font-weight: lighter;
    left: 0;
    padding: 1rem;
    background-color: #efefef;
-   text-align: center;
+   text-align: right;
  }
