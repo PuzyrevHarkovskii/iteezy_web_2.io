@@ -21,11 +21,13 @@ textarea {
    width: 100%;
    margin: 0 20px 0 0;
    height: 200px;
-   border-radius: 5px;
+   border-radius: 10px;
+   margin-top: 10px;
    border-color: #555;
    font-family: "Source Code Pro", monospace;
    font-size: 1em;
    resize: none;
+   
 }
 textarea:hover {
    background: #fff !important;
@@ -60,4 +62,11 @@ textarea:focus {
 }
 .output iframe::-webkit-scrollbar {
    display: none;
+}
+
+.mark {
+text-align: left;
+font-weight: lighter;
+
+
 }
