@@ -18,6 +18,7 @@ h1 {
 h3 {
    margin-top: 20px;
    margin-bottom: 20px;
+   font-size: 24px;
 }
 textarea {
    background: #fff !important;
@@ -74,7 +75,7 @@ font-weight: lighter;
    right: 0;
    bottom: 0;
    left: 0;
-   padding: 1rem;
+   padding: 0.75rem;
    background-color: #efefef;
    text-align: right;
  }
