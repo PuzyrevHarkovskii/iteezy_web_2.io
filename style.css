@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&family=Roboto:wght@300&display=swap');
 
+header {
 
+   border: 1px solid black;
+   padding: 10px;
+   user-select: none;
+
+}
 
 body {
    background: none !important;
    height: 100%;
    margin: 20px;
    padding: 0;
-   font-family: Arial;
    font-weight: bold;
    font-family: 'Roboto', sans-serif;
    font-family: 'Roboto Mono';
@@ -50,7 +55,7 @@ textarea:focus {
    background: #fff !important;
 }
 .grid {
-   width: 50%;
+   width: 40%;
    float: left;
    overflow: hidden;
    box-sizing: border-box;
@@ -59,6 +64,7 @@ textarea:focus {
 .edit {
    background: #fff !important;
    padding: 5px;
+   
 }
 .output {
    background: #fff;
@@ -100,8 +106,10 @@ user-select: none;
  }
 
  ::selection {
-   background-color: #8cff9b; /* Цвет фона выделенного текста */
-   color: #000000; /* Цвет текста выделенного фрагмента */
+   background-color: #00ff26; /* Цвет фона выделенного текста */
+   color: #ffffff; /* Цвет текста выделенного фрагмента */
  }
 
- 
+.html_edit {
+   margin-bottom: 10%;
+}
