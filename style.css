@@ -23,6 +23,7 @@ h3 {
    margin-top: 20px;
    margin-bottom: 20px;
    font-size: 26px;
+   user-select: none;
 }
 textarea {
    background: #fff !important;
@@ -35,6 +36,12 @@ textarea {
    resize: none;
    
 }
+
+textarea::placeholder {
+   color: #c7c7c7; 
+ }
+
+
 textarea:hover {
    background: #fff !important;
 }
@@ -73,6 +80,7 @@ textarea:focus {
 .mark {
 font-weight: lighter;
 margin: 7px;
+user-select: none;
 }
 
 .footer {
@@ -80,7 +88,20 @@ margin: 7px;
    right: 0;
    bottom: 0;
    left: 0;
-   padding: 0.75rem;
+   padding: 0.6rem;
    background-color: #efefef;
    text-align: right;
+   font-size: 12px;
  }
+
+ .footer p {
+
+   padding-right: 2%;
+ }
+
+ ::selection {
+   background-color: #8cff9b; /* Цвет фона выделенного текста */
+   color: #000000; /* Цвет текста выделенного фрагмента */
+ }
+
+ 
