@@ -37,7 +37,7 @@ textarea {
    height: 200px;
    border-radius: 10px;
    border-color: #555;
-   font-size: 1.25em;
+   font-size: 1em;
    resize: none;
    
 }
@@ -64,6 +64,7 @@ textarea:focus {
 .edit {
    background: #fff !important;
    padding: 5px;
+   font-family:'Roboto Mono';
    
 }
 .output {
