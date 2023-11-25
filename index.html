@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
+
 <header>
    <h1>ITEEZY</h1>
    <h2>HTML/CSS editor</h2>
@@ -22,19 +22,20 @@
       <h3>HTML</h3>
       <p class = "mark">&lt;body&gt;</p>
       <textarea id="html" class="edit" placeholder="<h1>Hello!</h1>"></textarea>
-      <p class = "mark">&lt;/body&gt;</p>
+      <p class = "mark">&lt;/body&gt;</p><button id = "htmldel">Trash</button>
    </div>
       <h3>CSS</h3>
-      <!-- Чтобы } была с новой строки -->
+      
       <textarea id="css" class="edit" placeholder="h1 {
 font-size: 12px;}"></textarea>
+<button id = "cssdel">Trash</button>
    </form>
 </div>
 
 <div class="output grid">
    <iframe></iframe>
 </div>
-<!-- partial -->
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script src="./script.js"></script> <script src="/iteezy_web_2.io/highlight.js"></script>
   <div class="footer"><p>made by <strong>app1e.jews</strong></p></div>
 </body>
