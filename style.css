@@ -85,9 +85,9 @@ textarea:focus {
 }
 
 .mark {
-font-weight: lighter;
-margin: 7px;
-user-select: none;
+   font-weight: lighter;
+   margin: 7px;
+   user-select: none;
 }
 
 .footer {
@@ -102,13 +102,12 @@ user-select: none;
  }
 
  .footer p {
-
    padding-right: 2%;
  }
 
  ::selection {
    background-color: #00ff26; /* Цвет фона выделенного текста */
-   color: #ffffff; /* Цвет текста выделенного фрагмента */
+   color: #707070; /* Цвет текста выделенного фрагмента */
  }
 
 .html_edit {
