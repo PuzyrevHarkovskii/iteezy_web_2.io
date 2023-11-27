@@ -18,26 +18,26 @@
 
 // Модальное окно в случае перезагрузки
 
-window.addEventListener('beforeunload', function(e) {
-   e.preventDefault();
-   e.returnValue = '';
- });
- 
- window.addEventListener('unload', function() {
-   // Здесь можно добавить код, который будет выполняться перед перезагрузкой страницы
- });
- 
- window.addEventListener('load', function() {
-   var confirmExit = true;
- 
-   // Здесь можно добавить код, который будет выполняться после загрузки страницы
- 
-   if (confirmExit) {
-     window.addEventListener('beforeunload', function(e) {
-       var confirmationMessage = 'Вы уверены, что хотите покинуть страницу? Весь контент будет потерян.';
-       e.returnValue = confirmationMessage;
-       return confirmationMessage;
-     });
-   }
- });
+//window.addEventListener('beforeunload', function(e) {
+//   e.preventDefault();
+//   e.returnValue = '';
+// });
+// 
+// window.addEventListener('unload', function() {
+//   // Здесь можно добавить код, который будет выполняться перед перезагрузкой страницы
+// });
+// 
+// window.addEventListener('load', function() {
+//   var confirmExit = true;
+// 
+//   // Здесь можно добавить код, который будет выполняться после загрузки страницы
+// 
+//   if (confirmExit) {
+//     window.addEventListener('beforeunload', function(e) {
+//       var confirmationMessage = 'Вы уверены, что хотите покинуть страницу? Весь контент будет потерян.';
+//       e.returnValue = confirmationMessage;
+//       return confirmationMessage;
+//     });
+//   }
+// });
  
