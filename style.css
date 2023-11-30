@@ -1,29 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&family=Roboto:wght@300&display=swap');
 
-
 header {
 
    border: 1px solid black;
    padding: 10px;
    user-select: none;
-   border-radius: 20px;
-   border: 1px solid transparent;
-   box-shadow: -10px -10px 30px 0 #FFFFFF,
-                 10px  10px 30px 0 rgba(174, 174, 192, 0.4);
-    z-index: -1;
 
 }
 
 body {
-   background: #ffffff;
+   background: none !important;
    height: 100%;
-   margin: 50px;
+   margin: 20px;
    padding: 0;
    font-weight: bold;
    font-family: 'Roboto', sans-serif;
    font-family: 'Roboto Mono';
-   margin-bottom: 50px;
-   
 }
 h1,
 h2 {
@@ -47,14 +39,12 @@ textarea {
    border-color: #555;
    font-size: 1em;
    resize: none;
-   transition: 0.3s;
-   border-radius: 20px;
-   border: 1px solid #fcf3f3;
-   box-shadow: 9px 7px 10px rgba(18, 61, 101, 0.3), -16px -16px 40px rgba(255, 255, 255, 0.8), inset -8px -60px 80px rgba(255, 255, 255, 0.18);
+   
 }
 
 textarea::placeholder {
    color: #c7c7c7; 
+   
  }
 
 
@@ -66,7 +56,7 @@ textarea:focus {
    background: #fff !important;
 }
 .grid {
-   width: 50%;
+   width: 40%;
    float: left;
    overflow: hidden;
    box-sizing: border-box;
@@ -84,14 +74,11 @@ textarea:focus {
    overflow: hidden;
    padding: 0 20px;
    margin: 20px 0;
-   
-   
 }
 .output iframe {
    border: none;
    width: 100%;
    height: 100%;
-   border: 1px solid transparent;
    overflow: hidden;
 }
 .output iframe::-webkit-scrollbar {
@@ -99,14 +86,13 @@ textarea:focus {
 }
 
 .mark {
-font-weight: lighter;
-margin: 7px;
-user-select: none;
+   font-weight: lighter;
+   margin: 7px;
+   user-select: none;
 }
 
 .footer {
    position:fixed;
-   width: 100%;
    right: 0;
    bottom: 0;
    left: 0;
@@ -114,8 +100,6 @@ user-select: none;
    background-color: #efefef;
    text-align: right;
    font-size: 12px;
-   border: 1px solid transparent;
-   box-shadow: 10px 7px 15px rgba(18, 61, 101, 0.3), -16px -16px 40px rgba(255, 255, 255, 0.8), inset -8px -6px 80px rgba(255, 255, 255, 0.18);
  }
 
  .footer p {
@@ -124,7 +108,7 @@ user-select: none;
 
  ::selection {
    background-color: #00ff26; /* Цвет фона выделенного текста */
-   color: #b3b3b3; /* Цвет текста выделенного фрагмента */
+   color: #707070; /* Цвет текста выделенного фрагмента */
  }
 
 .html_edit {
